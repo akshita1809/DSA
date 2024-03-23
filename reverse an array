@@ -1,0 +1,13 @@
+def reverse_list(input_list):
+    reversed_list = input_list[::-1]
+    return reversed_list
+
+def main():
+    input_list = input("Enter elements of the list separated by space: ").split()
+    # Convert input elements to appropriate data types, like int, float, etc., if needed
+    # For simplicity, assuming input elements are strings
+    reversed_list = reverse_list(input_list)
+    print("Reversed list:", reversed_list)
+
+if __name__ == "__main__":
+    main()
