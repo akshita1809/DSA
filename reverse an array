@@ -11,3 +11,14 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+OR
+
+def reverseList(A):
+  print( A[::-1])
+
+# Driver function to test above function
+A = [10, 20, 30, 40, 50]
+reverseList(A)
+
+instead of driver function to test, i want to take input but when i try to take input, code doesnt run correctly.
