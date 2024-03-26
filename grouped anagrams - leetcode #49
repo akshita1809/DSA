@@ -1,0 +1,12 @@
+class Solution:
+    def groupAnagrams(self, strs):
+        grouped_anagrams = defaultdict(list)
+        result=[]
+        for word in strs:
+            # Key function: Sort characters and concatenate to form a unique key
+            key = ''.join(sorted(word))
+            grouped_anagrams[key].append(word)
+        for value in grouped_anagrams.values():
+            result.append(value)
+        return result
+       
