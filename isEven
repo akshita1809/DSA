@@ -1,0 +1,17 @@
+without using *,/,%
+using loop to make a boolean switch which returns true or false alternatively until the number is reached. 
+
+def isEven(n):
+  isEven=True
+  for i in range(1,n+1):
+    if isEven==True:
+      isEven=False
+    else:
+      isEven=True
+
+#driver code
+isEven(101)
+if isEven==True:
+  print('even')
+else:
+print('odd')
