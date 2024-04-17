@@ -1,0 +1,7 @@
+def copy_array(input_array):
+    copied_array=[None]*len(input_array) # create an empty array of the same length as input_array
+    for i in range(0, len(input_array)):   # iterate over each element of input_array
+        copied_array[i]=input_array[i]     # assign value of current element to corresponding position in copied_array 
+    return copied_array    
+
+print(copy_array([1,2,3]))  # should print [1,2,3]
